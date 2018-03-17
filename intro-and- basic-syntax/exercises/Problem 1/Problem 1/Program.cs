@@ -16,7 +16,7 @@ namespace C_sharp_Intro_and_Basic_Syntax
             int num3 = int.Parse(Console.ReadLine());
             int num4 = int.Parse(Console.ReadLine());
             //Printing those four lines of integers to a debit card-like pattern
-            Console.Write($"{num1:d4} ");
+            Console.Write($"{numberOne:d4} ");
             Console.Write($"{num2:d4} ");
             Console.Write($"{num3:d4} ");
             Console.Write($"{num4:d4} ");
