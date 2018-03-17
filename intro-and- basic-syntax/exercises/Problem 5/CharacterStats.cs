@@ -11,6 +11,7 @@ namespace CharacterStats
         static void Main(string[] args)
         {
             String name = Console.ReadLine();
+
             int currHealth = int.Parse(Console.ReadLine());
             int maxHealth = int.Parse(Console.ReadLine());
             int currEnergy = int.Parse(Console.ReadLine());
