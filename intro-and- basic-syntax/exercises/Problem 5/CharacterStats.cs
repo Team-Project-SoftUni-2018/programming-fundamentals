@@ -11,15 +11,15 @@ namespace CharacterStats
         static void Main(string[] args)
         {
             String name = Console.ReadLine();
-            int currHealth = int.Parse(Console.ReadLine());
-            int maxHealth = int.Parse(Console.ReadLine());
-            int currEnergy = int.Parse(Console.ReadLine());
-            int maxEnergy = int.Parse(Console.ReadLine());
+            int currentHealth = int.Parse(Console.ReadLine());
+            int maximumHealth = int.Parse(Console.ReadLine());
+            int currentEnergy = int.Parse(Console.ReadLine());
+            int maximumEnergy = int.Parse(Console.ReadLine());
             
 
             Console.WriteLine("Name: {0}\nHealth: |{1}|\nEnergy: |{2}|", 
-                name, new String('|', currHealth) + new string('.', maxHealth - currHealth), 
-                new String('|', currEnergy) + new string('.', maxEnergy - currEnergy));
+                name, new String('|', currentHealth) + new string('.', maximumHealth - currentHealth), 
+                new String('|', currentEnergy) + new string('.', maximumEnergy - currentEnergy));
         }
 
     }
