@@ -10,7 +10,7 @@ namespace C_sharp_Intro_and_Basic_Syntax
     {
         static void Main(string[] args)
         {
-            int num1 = int.Parse(Console.ReadLine());
+            int numberOne = int.Parse(Console.ReadLine());
             int num2 = int.Parse(Console.ReadLine());
             int num3 = int.Parse(Console.ReadLine());
             int num4 = int.Parse(Console.ReadLine());
@@ -19,6 +19,7 @@ namespace C_sharp_Intro_and_Basic_Syntax
             Console.Write($"{num2:d4} ");
             Console.Write($"{num3:d4} ");
             Console.Write($"{num4:d4} ");
+//changed variable name from num1 to numberOne.
         }
     }
 }
