@@ -23,8 +23,8 @@ namespace CharacterStats
             
             //Printing information about the character
             Console.WriteLine("Name: {0}\nHealth: |{1}|\nEnergy: |{2}|", 
-                name, new String('|', currHealth) + new string('.', maxHealth - currHealth), 
-                new String('|', currEnergy) + new string('.', maxEnergy - currEnergy));
+                name, new String('|', currentHealth) + new string('.', maximumHealth - currentHealth), 
+                new String('|', currentEnergy) + new string('.', maximumEnergy - currentEnergy));
         }
 
     }
