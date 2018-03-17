@@ -10,8 +10,8 @@ namespace Beverages
     {
         static void Main(string[] args)
         {
-            String name = Console.ReadLine();
-            int vol = int.Parse(Console.ReadLine());
+            string name = Console.ReadLine();
+            int volume = int.Parse(Console.ReadLine());
             int energy = int.Parse(Console.ReadLine());
             int sugar = int.Parse(Console.ReadLine());
 
