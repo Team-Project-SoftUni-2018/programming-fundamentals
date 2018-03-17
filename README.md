@@ -1,8 +1,20 @@
 # programming-fundamentals
 Team repo
 
+### Problem 3.               
+Miles to Kilometers
 
-* Character Stats
+Write a program, which **converts****miles** to **kilometers**. **Format** the output to the **2
+
+nd
+decimal place**.
+
+Note: **1
+mile == 1.60934 kilometers**
+
+
+
+### Problem 5.
 
 Write a program, which displays information about a video game character. You will receive their name, current health, maximum health, current energy and maximum energy on separate lines. The current values will always be valid (equal or lower than their respective max values). Print them in the format as per the examples.
 
